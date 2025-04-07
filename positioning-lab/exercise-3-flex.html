@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Lab</title>
+  <style type="text/css">
+    /* ---------------Box Sizing----------------- */
+    html {
+      box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    body {
+      background-color: #ECECEC;
+      font-weight: bold;
+      font-family: Tahoma, Geneva, sans-serif;
+      color: #FFF;
+      line-height: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+
+    #wrapper {
+      background-color: #FFF;
+      border: 20px solid #FFF;
+      text-shadow: 2px 2px #000;
+      width: 800px;
+      height: 205px;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+
+    #navy {
+      background-color: #001f3f;
+      width: 175px;
+      height: 125px;
+    }
+
+    #teal {
+      background-color: #39CCCC;
+      width: 175px;
+      height: 125px;
+      align-self: flex-start;
+      margin-left: auto;
+      order: 2;
+    }
+
+    #blue {
+      background-color: #0074D9;
+      width: 175px;
+      height: 125px;
+      align-self: flex-end;
+      margin-right: auto;
+      order: 3;
+    }
+    #aqua {
+      background-color: #7FDBFF;
+      width: 175px;
+      height: 125px;
+      align-self: flex-end;
+      margin-left: auto;
+      order: 4;
+    }
+    
+    #footer {
+      background-color: #666;
+      width: 25%;
+    }
+    
+    h1 {
+      color: #000;
+      font-weight: normal;
+      flex-grow: 1;
+      order: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercise</h1>
+  <div id="navy">Navy</div>
+  <div id="teal">Teal</div>
+  <section id="wrapper">
+    <div id="footer">Footer</div>
+  </section>
+  <div id="blue">Blue</div>
+  <div id="aqua">Aqua</div>
+
+</body>
+
+</html>
