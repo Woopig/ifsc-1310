@@ -1,0 +1,300 @@
+
+/*Colors
+#515eda
+*/
+* {
+    /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #050b35;
+}
+
+header {
+    display: flex;
+    background-image: url(assets/pexels-felixmittermeier-956981.jpg);
+    height: 360px;
+    width: 100%;
+}
+
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(assets/pexels-felixmittermeier-956981.jpg);
+}
+
+header h1 {
+    color: #c4cdfd;
+    font-family: "Roboto", serif;
+    text-shadow: 10px;
+    font-size: 7.5em;
+    opacity: .9;
+    justify-content: left;
+    text-align: left;
+    line-height: 1.0em;
+    flex-basis: 30%;
+    flex-grow: 2;
+    width: auto;
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: #050b35;
+    flex-direction: column;
+
+}
+
+nav li {
+    display: flex;
+    font-family: "Roboto", serif;
+    font-size: 2.5em;
+    padding: 20px;
+    font-weight: bold;
+    color: #515eda;
+    opacity: .8;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+header p {
+    color: #515eda;
+    font-family: "Roboto", serif;
+    font-size: 2.5em;
+    padding: 20px;
+    font-weight: bold;
+    text-align: bottom;
+    flex-basis: 20%;
+    flex-grow: 2;
+    width: auto;
+    height: min-content;
+    margin-top: auto;
+    border-radius: 15px;
+    opacity: .8;
+}
+
+p {
+    color: white;
+    text-align: left;
+    padding: 0px;
+    font-size: 1.5em;
+    height: 100%;
+    background-color: #050b35;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    color: #6877E3;
+    padding: 10px;
+    height: 100%;
+    flex-wrap: nowrap;
+    border: #6877E3 solid 1px;
+    width: 100%;
+    background-color: #050b35;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    color: #6877E3;
+    padding: 10px;
+    height: 100%;
+    flex-wrap: nowrap;
+    border: #6877E3 solid 1px;
+    width: 100%;
+    background-color: #050b35; 
+}
+
+.costs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    color: #6877E3;
+    padding: 10px;
+    height: 100%;
+    flex-wrap: nowrap;
+    border: #6877E3 solid 1px;
+    width: 100%;
+    background-color: #050b35; 
+}
+
+.launch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    color: #6877E3;
+    padding: 10px;
+    height: 100%;
+    flex-wrap: nowrap;
+    border: #6877E3 solid 1px;
+    width: 100%;
+    background-color: #050b35; 
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    color: #6877E3;
+    padding: 30px;
+    height: 100%;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #050b35; 
+}
+
+.content h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.content ul {
+    color: white;
+    text-align: left;
+    padding: 1.2rem;
+    font-size: 1.5em;
+    height: 100%;
+    background-color: #050b35;
+}
+
+footer {
+    background-color: #050b35;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+footer p {
+    text-align:  left;
+    padding-top: 0px;
+    font-family: "Roboto", serif;
+    color: #6877E3;
+    font-weight: bold;
+    margin-left: 20px;
+    margin: 0;
+    background-color: #050b35;
+    width: 100%;
+    height: 100%;
+}
+
+.content image {
+    object-fit: contain;
+    background-color: #080c2c;
+    border: #6877E3 solid 1px;
+}
+
+.practices {
+    text-align: center;
+    color: #c4cdfd;
+    font-family: "Roboto", serif;
+    text-shadow: 10px;
+    font-size: 5.5em;
+    opacity: .9;
+    justify-content: left;
+    text-align: left;
+    line-height: 1.0em;
+    width: auto;
+    background-image: url("assets/pexels-felixmittermeier-956981.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 300px;
+}
+
+.practices h1 {
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.news {
+    text-align: center;
+    color: #c4cdfd;
+    font-family: "Roboto", serif;
+    text-shadow: 10px;
+    font-size: 5.5em;
+    opacity: .9;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 1.0em;
+    width: 100%;
+    background-image: url("assets/pexels-felixmittermeier-956981.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 300px;
+    display: flex;
+}
+
+.news h1 {
+    padding-top: 90px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", serif;
+    text-shadow: 10px;
+    font-size: 2.5em;
+    opacity: .9;
+    justify-content: left;
+    text-align: left;
+    width: auto;
+    background-image: url("assets/pexels-felixmittermeier-956981.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.news img {
+    background-size: contain;
+}
+section h3 {
+    text-align: center;
+    color: #6877E3;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 20px;
+    margin: 0;
+    background-color: #050b35;
+}
+section h4 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+    background-color: #050b35;
+}
+
+section p {
+    padding: 20px;
+}
+
+.news-content {
+    height: 100%;
+}
