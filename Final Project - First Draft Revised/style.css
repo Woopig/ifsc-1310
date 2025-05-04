@@ -344,3 +344,10 @@ form {
     width: 50%;
     background-color: #012a4a; 
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    * {
+      background-color: black !important;
+      color: #a9d6e5; 
+    }
+  }
