@@ -25,15 +25,40 @@ header {
     height: 360px;
     width: 100%;
 }
-span {
-    font-size: .5em;
-    color: white;
-    font-family: "Roboto", serif;
-    text-align: left;
-    position: absolute;
-    bottom: 130px;
+
+.main {
+    flex-basis: 40%;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
 }
 
+.main h1 {
+    color: #3498db;
+    font-family: "Roboto", serif;
+    text-shadow: 10px;
+    font-size: 5.5em;
+    opacity: .9;
+    justify-content: left;
+    text-align: left;
+    line-height: .9em;
+    padding-top: 50px;
+    padding-left: 20px;
+    flex-shrink: 0;
+
+}
+
+.main p {
+    flex: 1 1 auto;
+    margin: 0;
+    opacity: .9;
+    background: none;
+    overflow: hidden;
+}
+
+figure {
+    flex-basis: 40%;
+}
 
 figure img {
     width: 100%;
@@ -62,10 +87,28 @@ header h1 {
     position: relative;
 }
 
+.main p {
+    flex-shrink: 1;
+    margin: 0;
+    word-wrap: break-word;
+    font-family: "Roboto", serif;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: bottom;
+    flex-basis: 20%;
+    margin-top: auto;
+    opacity: .9;
+    color: #a9d6e5;
+    flex-grow: 2;
+}
+
 nav {
     display: flex;
     background-color: #012a4a;
     flex-direction: column;
+    flex-basis: 20%;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -90,23 +133,6 @@ nav a:hover {
     color: #031c2c; 
   }
   
-
-header p {
-    color: #a9d6e5;
-    font-family: "Roboto", serif;
-    font-size: 2.5em;
-    padding: 20px;
-    font-weight: bold;
-    text-align: bottom;
-    flex-basis: 20%;
-    flex-grow: 2;
-    width: auto;
-    height: min-content;
-    margin-top: auto;
-    border-radius: 15px;
-    opacity: .8;
-}
-
 p {
     color: white;
     text-align: left;
